@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "main": "controller.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Xiaojing",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.19.1",
+    "parcel": "^2.0.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "sass": "^1.43.4"
+  }
+}
