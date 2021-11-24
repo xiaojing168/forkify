@@ -566,6 +566,9 @@ const controlAddRecipe = async function(newRecipe) {
         _addRecipeViewJsDefault.default.renderError(err.message);
     }
 };
+const newFeature = function() {
+    console.log("welocm new feature");
+};
 const init = function() {
     _bookmarksViewJsDefault.default.addHandlerRender(controlBookmarks);
     _recipeViewJsDefault.default.addHandlerRender(controlRecipes);
@@ -574,6 +577,7 @@ const init = function() {
     _searchViewJsDefault.default.addHandlerSearch(controlSearchResults);
     _paginationViewJsDefault.default.addHandlerClick(controlPagination);
     _addRecipeViewJsDefault.default.addHandlerUpload(controlAddRecipe);
+    newFeature();
 };
 init();
 
